@@ -79,7 +79,7 @@ def play_game():
         return "\"You have revealed the {name} card, hero. This is the {namealt} card. This card tells of history. Knowledge of the ancient will help you better understand your enemy. {description}\"".format(name=card.name, namealt=card.namealt, description=card.description)
       
     print(round1())
-    print(round_1l)
+    # print(round_1l)
     input("Press Enter to continue")
     print(one_card_up)
     print("She turns and faces you before taking the next stack of cards in her hand.")
@@ -113,7 +113,7 @@ def play_game():
         return "\"A bit of luck brings you the {name}. This one is also known as the {namealt} card. This card tells of a powerful force for good and protection, a holy symbol of great hope. {description}\"".format(name=card.name, namealt=card.namealt, description=card.description)
 
     print(round2())
-    print(round_2l)
+    # print(round_2l)
     input("Press Enter to continue")
     print(two_cards_up)
     print("With two cards chosen, she turns to her next player...")
@@ -147,7 +147,7 @@ def play_game():
         return "\"I'm not surprised to see you've chosen the {namealt}, that's what they call the {name}. It's hardly the first time the {namealt} has revealed itself. This is a card of power and strength. It tells of a weapon of vengeance: a sword of sunlight. {description}\"".format(name=card.name, namealt=card.namealt, description=card.description)   
 
     print(round3())
-    print(round_3l)
+    # print(round_3l)
     input("Press Enter to continue")
     print(three_cards_up)
     print("Her expression becomes dour, as she prepares the next stack. There is a reverence she has to cards from the smaller deck, as if the secrets they hold are more valuable.")
